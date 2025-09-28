@@ -1,8 +1,8 @@
 import { ButtonProps } from "@/interfaces";
 
-const Button: React.FC<ButtonProps> = ({title, size= "medium", shape= "rounded-md"}) => {
-    
-    const baseStyles = "border px-3 py-1 text-lg mt-3  bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300"
+const Button: React.FC<ButtonProps> = ({title, size= "medium", shape= "rounded-lg"}) => {
+
+    const baseStyles = "border px-3 py-1 text-lg mt-3  bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300"
 
     const sizes = {
         small: "px-2 py-1 text-sm",
@@ -12,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({title, size= "medium", shape= "rounded-m
 
     const shapes = {
         "rounded-sm": "rounded-sm",
-        "rounded-md": "rounded-md",
+        "rounded-lg": "rounded-lg",
         "rounded-full": "rounded-full"
     }
 
