@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import Card from "@/components/Card";
 
 const Home: React.FC = () => {
@@ -5,9 +6,7 @@ const Home: React.FC = () => {
     <main className="flex flex-col h-screen justify-center items-center text-4xl font-semibold">
       <h1>Airbnb Application Clone system</h1>
       <Card />
-      <button className=" boder px-3 py-1 text-lg mt-3  bg-blue-500 text-white rounded-full">
-        Get Started
-      </button>
+      <Button title="Get Started" shape="rounded-full" size="medium"/>
     </main>
   )
 }
