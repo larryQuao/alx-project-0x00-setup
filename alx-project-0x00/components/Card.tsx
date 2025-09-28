@@ -111,3 +111,5 @@ const Card: React.FC = () => {
     </div>
   );
 };
+
+export default Card;
