@@ -15,9 +15,9 @@ const Card: React.FC = () => {
         height={422}
       />
       <div className="p-2 flex gap-2 mt-2">
-        <Pill text="Top Villa" />
-        <Pill text="Self CheckIn" />
-        <Pill text="Free Reschedule" />
+        <Pill title="Top Villa" />
+        <Pill title="Self CheckIn" />
+        <Pill title="Free Reschedule" />
       </div>
       <div className="flex items-center justify-between">
         <div>
