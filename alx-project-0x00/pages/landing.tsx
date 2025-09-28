@@ -6,7 +6,7 @@ const Landing: React.FC = () => {
         <div>
             <h1 className="text-xl font-extralight">Landing Page</h1>
             <Card />
-            <Button title="Let Started" size="medium" shape="rounded-lg" />
+            <Button title="Let Started" size="medium" shape="rounded-lg" styles={""} />
         </div>
     )
 }
